@@ -21,34 +21,35 @@ Welcome to the backend of my personal blog platform! This project is designed to
 - MongoDB — NoSQL database.
 - Mongoose — ODM for MongoDB.
 - JWT (JSON Web Tokens) — For secure authentication.
-
+  
 ---
 
-## 📁 𝙿𝚛𝚘𝚓𝚎𝚌𝚝 𝚂𝚝𝚛𝚞𝚌𝚝𝚞𝚛𝚎
+## 📁 Project Structure
+
 
 BLOG-Backend/
-├── controllers/ # Controllers for handling blog-related requests (posts, users, auth)
-│ ├── authController.js
-│ ├── postController.js
-│ ├── userController.js
-│ └── categoryController.js
-├── models/ # Mongoose models (User, Post, Category, etc.)
-│ ├── User.js
-│ ├── Post.js
-│ ├── Category.js
-│ └── Comment.js
-├── routes/ # API routes
-│ ├── authRoutes.js
-│ ├── postRoutes.js
-│ ├── userRoutes.js
-│ └── categoryRoutes.js
-├── middleware/ # Middleware (e.g., authentication, error handling)
-│ └── authMiddleware.js
-├── utils/ # Utility functions (e.g., token creation)
-├── tests/ # Unit and integration tests (if any)
-├── .env # Environment variables (MongoDB URI, JWT secret)
-├── package.json # Backend dependencies and scripts
-└── server.js # Main entry point for the backend server
+├── controllers/           # Controllers for handling blog-related requests (posts, users, auth)
+│   ├── authController.js
+│   ├── postController.js
+│   ├── userController.js
+│   └── categoryController.js
+├── models/                # Mongoose models (User, Post, Category, etc.)
+│   ├── User.js
+│   ├── Post.js
+│   ├── Category.js
+│   └── Comment.js
+├── routes/                # API routes
+│   ├── authRoutes.js
+│   ├── postRoutes.js
+│   ├── userRoutes.js
+│   └── categoryRoutes.js
+├── middleware/            # Middleware (e.g., authentication, error handling)
+│   └── authMiddleware.js
+├── utils/                 # Utility functions (e.g., token creation)
+├── tests/                 # Unit and integration tests (if any)
+├── .env                   # Environment variables (MongoDB URI, JWT secret)
+├── package.json           # Backend dependencies and scripts
+└── server.js              # Main entry point for the backend server
 
 
 
