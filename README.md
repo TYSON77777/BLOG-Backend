@@ -26,7 +26,6 @@ Welcome to the backend of my personal blog platform! This project is designed to
 
 ## 📁 Project Structure
 
-
 BLOG-Backend/
 ├── controllers/           # Controllers for handling blog-related requests (posts, users, auth)
 │   ├── authController.js
@@ -50,8 +49,6 @@ BLOG-Backend/
 ├── .env                   # Environment variables (MongoDB URI, JWT secret)
 ├── package.json           # Backend dependencies and scripts
 └── server.js              # Main entry point for the backend server
-
-
 
 ---
 
