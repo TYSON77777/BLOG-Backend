@@ -21,27 +21,30 @@ Welcome to the backend of my personal blog platform! This project is designed to
 - MongoDB — NoSQL database.
 - Mongoose — ODM for MongoDB.
 - JWT (JSON Web Tokens) — For secure authentication.
-  
+
 ---
-📦blog-backend
- ┣ 📂controllers
- ┃ ┣ 📜articleController.js
- ┃ ┗ 📜authController.js
- ┣ 📂models
- ┃ ┣ 📜Article.js
- ┃ ┗ 📜User.js
- ┣ 📂routes
- ┃ ┣ 📜articleRoutes.js
- ┃ ┗ 📜authRoutes.js
- ┣ 📂views
- ┃ ┗ 📜index.ejs
- ┣ 📜.env
- ┣ 📜.gitignore
- ┣ 📜index.js
- ┣ 📜package-lock.json
- ┗ 📜package.json
 
+## 📁 Project Structure
 
+```
+📦 blog-backend
+ ┣ 📂 controllers
+ ┃ ┣ 📜 articleController.js
+ ┃ ┗ 📜 authController.js
+ ┣ 📂 models
+ ┃ ┣ 📜 Article.js
+ ┃ ┗ 📜 User.js
+ ┣ 📂 routes
+ ┃ ┣ 📜 articleRoutes.js
+ ┃ ┗ 📜 authRoutes.js
+ ┣ 📂 views
+ ┃ ┗ 📜 index.ejs
+ ┣ 📜 .env
+ ┣ 📜 .gitignore
+ ┣ 📜 index.js
+ ┣ 📜 package-lock.json
+ ┗ 📜 package.json
+```
 ## ⚙️ 𝗜𝗻𝘀𝘁𝗮𝗹𝗹𝗮𝘁𝗶𝗼𝗻
 
 git clone https://github.com/TYSON77777/BLOG-Backend.git
@@ -51,11 +54,9 @@ cp .env.example .env
 # update your .env with MongoDB URI and JWT secret
 npm start
 
+---
 ## 🧪 𝗧𝗲𝘀𝘁𝘀
 
 npm test
 
 
-## 📄 𝗟𝗶𝗰𝗲𝗻𝘀𝗲
-
-This project is licensed under the MIT License.
