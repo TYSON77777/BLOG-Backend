@@ -23,37 +23,23 @@ Welcome to the backend of my personal blog platform! This project is designed to
 - JWT (JSON Web Tokens) — For secure authentication.
   
 ---
-
-BLOG-Backend/
-├── controllers/                 # Controllers for handling blog-related requests
-│   ├── authController.js
-│   ├── postController.js
-│   ├── userController.js
-│   └── categoryController.js
-│
-├── models/                      # Mongoose models (User, Post, Category, Comment)
-│   ├── User.js
-│   ├── Post.js
-│   ├── Category.js
-│   └── Comment.js
-│
-├── routes/                      # API routes
-│   ├── authRoutes.js
-│   ├── postRoutes.js
-│   ├── userRoutes.js
-│   └── categoryRoutes.js
-│
-├── middleware/                 # Middleware (e.g., authentication, error handling)
-│   └── authMiddleware.js
-│
-├── utils/                      # Utility functions (e.g., token creation)
-│
-├── tests/                      # Unit and integration tests (if any)
-│
-├── .env                        # Environment variables (MongoDB URI, JWT secret)
-├── .env.example                # Sample environment file
-├── package.json                # Backend dependencies and scripts
-├── server.js                   # Main entry point
+📦blog-backend
+ ┣ 📂controllers
+ ┃ ┣ 📜articleController.js
+ ┃ ┗ 📜authController.js
+ ┣ 📂models
+ ┃ ┣ 📜Article.js
+ ┃ ┗ 📜User.js
+ ┣ 📂routes
+ ┃ ┣ 📜articleRoutes.js
+ ┃ ┗ 📜authRoutes.js
+ ┣ 📂views
+ ┃ ┗ 📜index.ejs
+ ┣ 📜.env
+ ┣ 📜.gitignore
+ ┣ 📜index.js
+ ┣ 📜package-lock.json
+ ┗ 📜package.json
 ---
 
 ## ⚙️ 𝗜𝗻𝘀𝘁𝗮𝗹𝗹𝗮𝘁𝗶𝗼𝗻
