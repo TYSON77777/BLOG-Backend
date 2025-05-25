@@ -27,29 +27,28 @@ Welcome to the backend of my personal blog platform! This project is designed to
 ## 📁 Project Structure
 
 BLOG-Backend/
-├── controllers/           # Controllers for handling blog-related requests (posts, users, auth)
+├── controllers/                  # Handle blog-related requests
 │   ├── authController.js
 │   ├── postController.js
 │   ├── userController.js
 │   └── categoryController.js
-├── models/                # Mongoose models (User, Post, Category, etc.)
+├── models/                       # Mongoose models
 │   ├── User.js
 │   ├── Post.js
 │   ├── Category.js
 │   └── Comment.js
-├── routes/                # API routes
+├── routes/                       # API routes
 │   ├── authRoutes.js
 │   ├── postRoutes.js
 │   ├── userRoutes.js
 │   └── categoryRoutes.js
-├── middleware/            # Middleware (e.g., authentication, error handling)
+├── middleware/                  # Custom middleware (auth, error handling, etc.)
 │   └── authMiddleware.js
-├── utils/                 # Utility functions (e.g., token creation)
-├── tests/                 # Unit and integration tests (if any)
-├── .env                   # Environment variables (MongoDB URI, JWT secret)
-├── package.json           # Backend dependencies and scripts
-└── server.js              # Main entry point for the backend server
-
+├── utils/                        # Utility functions
+├── tests/                        # Unit and integration tests (if any)
+├── .env                          # Your environment variables (MongoDB URI, JWT Secret)
+├── package.json                  # Project metadata and dependencies
+├── server.js                     # Main entry point
 ---
 
 ## ⚙️ 𝗜𝗻𝘀𝘁𝗮𝗹𝗹𝗮𝘁𝗶𝗼𝗻
