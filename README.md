@@ -26,4 +26,48 @@ Welcome to the backend of my personal blog platform! This project is designed to
 
 ## 📁 𝙿𝚛𝚘𝚓𝚎𝚌𝚝 𝚂𝚝𝚛𝚞𝚌𝚝𝚞𝚛𝚎
 
+BLOG-Backend/
+├── controllers/ # Controllers for handling blog-related requests (posts, users, auth)
+│ ├── authController.js
+│ ├── postController.js
+│ ├── userController.js
+│ └── categoryController.js
+├── models/ # Mongoose models (User, Post, Category, etc.)
+│ ├── User.js
+│ ├── Post.js
+│ ├── Category.js
+│ └── Comment.js
+├── routes/ # API routes
+│ ├── authRoutes.js
+│ ├── postRoutes.js
+│ ├── userRoutes.js
+│ └── categoryRoutes.js
+├── middleware/ # Middleware (e.g., authentication, error handling)
+│ └── authMiddleware.js
+├── utils/ # Utility functions (e.g., token creation)
+├── tests/ # Unit and integration tests (if any)
+├── .env # Environment variables (MongoDB URI, JWT secret)
+├── package.json # Backend dependencies and scripts
+└── server.js # Main entry point for the backend server
 
+
+
+---
+
+## ⚙️ 𝗜𝗻𝘀𝘁𝗮𝗹𝗹𝗮𝘁𝗶𝗼𝗻
+
+git clone https://github.com/TYSON77777/BLOG-Backend.git
+cd BLOG-Backend
+npm install
+cp .env.example .env
+# update your .env with MongoDB URI and JWT secret
+npm start
+
+## 🧪 𝗧𝗲𝘀𝘁𝘀
+
+npm test
+
+
+## 📄 𝗟𝗶𝗰𝗲𝗻𝘀𝗲
+
+This project is licensed under the MIT License.
